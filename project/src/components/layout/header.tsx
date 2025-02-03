@@ -121,10 +121,10 @@ export function Header() {
             ) : (
               <>
                 <Link to="/login" className="block text-gray-700 hover:text-emerald-600">
-                  {t('login')}
+                  {t('Login')}
                 </Link>
                 <Link to="/register" className="block text-gray-700 hover:text-emerald-600">
-                  {t('get_started')}
+                  {t('Sign up')}
                 </Link>
               </>
             )}
