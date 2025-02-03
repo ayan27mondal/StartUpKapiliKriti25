@@ -11,7 +11,7 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <Sprout className="h-8 w-8 text-emerald-600" />
-              <span className="text-xl font-bold text-emerald-900">TerraPure</span>
+              <span className="text-xl font-bold text-emerald-900">Bhomora</span>
             </div>
             <p className="text-gray-600">
               Empowering farmers to cultivate organic prosperity through direct market access.
@@ -96,7 +96,7 @@ export function Footer() {
 
         <div className="mt-8 pt-8 border-t">
           <p className="text-center text-gray-500">
-            © {new Date().getFullYear()} TerraPure. All rights reserved.
+            © {new Date().getFullYear()} Bhomora. All rights reserved.
           </p>
         </div>
       </div>

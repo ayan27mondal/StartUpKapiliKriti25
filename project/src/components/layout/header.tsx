@@ -3,6 +3,9 @@ import { Link, useNavigate } from 'react-router-dom';
 import { Sprout, Menu, X, LogOut } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useTranslation } from 'react-i18next';
+import logo from "./logo.png";
+
+
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -28,8 +31,10 @@ export function Header() {
         <div className="flex justify-between h-16 items-center">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <Sprout className="h-8 w-8 text-emerald-600" />
-              <span className="text-xl font-bold text-emerald-900">TerraPure</span>
+              
+              <span className="text-xl font-bold text-emerald-900">
+                <img className='h-18 w-auto max-w-[150px]' src={logo} alt="" />
+                </span>
             </Link>
           </div>
 
@@ -65,10 +70,10 @@ export function Header() {
             ) : (
               <>
                 <Link to="/login" className="text-gray-700 hover:text-emerald-600">
-                  {t('login')}
+                  {t('Login')}
                 </Link>
                 <Link to="/register">
-                  <Button>{t('get_started')}</Button>
+                  <Button>{t('Sign up')}</Button>
                 </Link>
               </>
             )}
