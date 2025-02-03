@@ -115,7 +115,7 @@ export function Header() {
                   {t('marketplace')}
                 </Link>
                 <button onClick={handleLogout} className="block text-gray-700 hover:text-emerald-600">
-                  {t('logout')}
+                  {t('Logout')}
                 </button>
               </>
             ) : (
