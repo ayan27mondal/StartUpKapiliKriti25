@@ -8,7 +8,7 @@ export function LoadingScreen() {
         <div className="animate-bounce mb-4">
           <Sprout className="h-16 w-16 text-emerald-600" />
         </div>
-        <h1 className="text-3xl font-bold text-emerald-900 mb-2">Ayan</h1>
+        <h1 className="text-3xl font-bold text-emerald-900 mb-2">Bhomora</h1>
         <p className="text-emerald-600">Loading organic prosperity...</p>
       </div>
     </div>
